@@ -34,6 +34,7 @@ const Logo = () => {
   })
 
   return (
+    <>
     <div className="logo-container">
       <img className="solid-logo" src={Logok} alt="K" />
       <svg
@@ -50,6 +51,7 @@ const Logo = () => {
         ></g>
       </svg>
     </div>
+    </>
   )
 }
 export default Logo
